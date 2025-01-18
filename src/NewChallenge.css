@@ -1,0 +1,66 @@
+.new-challenge-container {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 900px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.form-label {
+    font-weight: bold;
+    color: #555;
+}
+
+textarea {
+    resize: none;
+}
+
+button {
+    background-color: #008000;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+button:hover {
+    background-color: #006600; /* Darker shade of green for hover effect */
+}
+
+input, select, textarea {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 8px;
+    width: 100%; /* Ensure inputs take full width of form */
+}
+
+.create-button {
+    padding: 5px 20px; /* Adjust the vertical and horizontal padding */
+    font-size: 0.9rem; /* Slightly smaller font size */
+    border-radius: 4px; /* Rounded corners */
+    background-color: #008000;
+    color: white;
+    border: none;
+    cursor: pointer;
+    display: inline-block; /* Align correctly with other inline elements */
+}
+
+.create-button:hover {
+    background-color: #006600; /* Consistent hover effect */
+}
+
+/* Specific styles for the map container to ensure it is visible */
+#map {
+    width: 100%; /* Full width to ensure visibility */
+    height: 400px; /* Adequate height for map visibility */
+    margin-top: 20px; /* Space above the map container */
+}

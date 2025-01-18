@@ -1,0 +1,10 @@
+.background-container {
+    
+    background-size: cover; /* Cover the entire area */
+    background-position: center; /* Center the image */
+    padding: 20px; /* Optional padding */
+    color: black; /* Optional: Change text color for better contrast */
+    background-color: white;
+    padding: 20px;
+    min-height: 200vh;
+}
